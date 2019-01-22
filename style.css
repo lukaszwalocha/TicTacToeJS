@@ -1,0 +1,91 @@
+.playSquare{
+    background-color: firebrick;
+    width:3%;
+    padding: 6.1%;
+    float: left;
+    margin: 0.15%;
+}
+.row{
+    margin: auto;
+    padding-bottom: 5px;
+    clear: both;
+}
+#mainContainer{
+    margin-left: 35%;
+    
+}
+#container{
+    margin-left: 29.5%;
+}
+.markedCircle{
+    
+    pointer-events: none;
+}
+.markedCross{
+    pointer-events: none;
+}
+.display{
+    background-color: firebrick;
+    width:3%;
+    padding: 5.5%;
+    padding-top: 6%;
+    margin: 2.7%;
+    float: left;
+    
+
+}
+div.display:first-of-type{
+ background-image: url(imgs/crossPts.jpg);
+ padding-top: 5%;
+}
+div.display:nth-of-type(3){
+ background-image: url(imgs/circlePts.jpg); 
+ padding-top: 5%;
+}    
+.hovered{
+    background-color: rgb(137,9,9);
+    cursor: pointer;    
+}
+.marked{
+    color: transparent;
+}
+
+h2:first-of-type{
+   
+    text-align:center;
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+h2:nth-of-type(2){
+    margin: auto;
+    text-align:center;
+    color: aliceblue;
+    font-size: 28px;
+    clear: both;
+    cursor: pointer;
+}
+h2:nth-of-type(3){
+    margin-left: 2%;
+    text-align:center;
+    color: aliceblue;
+    font-size: 22px;
+}
+h3{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: floralwhite;
+    
+}
+div{
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin:0 auto;
+    background-color: crimson;
+    font-family: 'Rock Salt', cursive;
+}
